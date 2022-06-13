@@ -9,11 +9,11 @@ namespace User.Data
 {
     public class UserContext : DbContext
     {
-        public UserContext (DbContextOptions<UserContext> options)
-            : base(options)
-        {
-        }
+        //public UserContext (DbContextOptions<UserContext> options)
+        //    : base(options)
+        //{
+        //}
 
-        public DbSet<WebApplication4.Models.User> User { get; set; }
+        //public DbSet<WebApplication4.Models.User> User { get; set; }
     }
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using House.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -12,9 +13,9 @@ namespace WebApplication4.Controllers
 {
     public class UsersController : Controller
     {
-        private readonly UserContext _context;
+        private readonly HouseContext _context;
 
-        public UsersController(UserContext context)
+        public UsersController(HouseContext context)
         {
             _context = context;
         }

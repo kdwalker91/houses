@@ -15,5 +15,6 @@ namespace House.Data
         }
 
         public DbSet<WebApplication4.Models.House> House { get; set; }
+        public DbSet<WebApplication4.Models.User> User { get; set; }
     }
 }
